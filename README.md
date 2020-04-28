@@ -1,5 +1,3 @@
 # GetSum
 
-const getSum = (numb) => 
-String(numb).split('').reduce((acc, item) => 
-acc + Number(item) , 0);
+const getSum = (numb) => String(numb).split('').reduce((acc, item) => acc + Number(item) , 0);
